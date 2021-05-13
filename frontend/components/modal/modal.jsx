@@ -5,7 +5,7 @@ import SignupContainer from '../session/signup_container';
 class Modal extends React.Component {
     constructor(props) {
         super(props);
-        // debugger
+        
     }
     
     render() {

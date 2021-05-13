@@ -2,7 +2,7 @@ import { RECEIVE_CITIES } from "../actions/city_actions";
 
 
 const citiesReducer = (state=[], action) => {
-    debugger
+    
     Object.freeze(state);
 
     switch (action.type) {

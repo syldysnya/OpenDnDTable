@@ -51,7 +51,7 @@ class Signup extends React.Component {
     }
 
     handleInputCity(e) {
-        debugger
+        
         const idx = parseInt(e.target.value);
         this.setState({ city_id: this.props.city_indices[idx] })
     }
